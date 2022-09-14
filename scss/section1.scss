@@ -1,0 +1,44 @@
+.section-1 {
+    padding: 60px 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    h1 {
+        display: flex;
+        margin: 0px;
+        font-size: 60px;
+        color: #9AA3FAff;
+    }
+
+    p { 
+        font-size: 20px;
+    }
+    .box-1-1 {
+        display: flex;
+
+    }
+
+    .box-1-2 {
+        padding: 0px 40px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        p {
+            margin: 0px;
+            margin-bottom: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 100px;
+            background-color: #9AA3FAff;
+        }
+    }
+}

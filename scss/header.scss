@@ -1,0 +1,27 @@
+.logo-base {
+    padding: 10px 0px 0px 20px;
+    width: 20%;
+}
+
+nav { 
+    display: flex;
+    background-color: #9AA3FAff;
+    padding: 20px; 
+
+    a { 
+        color: white;
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center;
+
+        li {
+            font-size: 20px;
+            padding: 0px 20px;
+        }
+    }
+}

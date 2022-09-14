@@ -1,0 +1,111 @@
+* {
+  margin: 0px; }
+
+.logo-base {
+  padding: 10px 0px 0px 20px;
+  width: 20%; }
+
+nav {
+  display: flex;
+  background-color: #9AA3FAff;
+  padding: 20px; }
+  nav a {
+    color: white;
+    text-decoration: none; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center; }
+    nav ul li {
+      font-size: 20px;
+      padding: 0px 20px; }
+
+.section-1 {
+  padding: 60px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  .section-1 h1 {
+    display: flex;
+    margin: 0px;
+    font-size: 60px;
+    color: #9AA3FAff; }
+  .section-1 p {
+    font-size: 20px; }
+  .section-1 .box-1-1 {
+    display: flex; }
+  .section-1 .box-1-2 {
+    padding: 0px 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .section-1 .box-1-2 p {
+      margin: 0px;
+      margin-bottom: 40px; }
+    .section-1 .box-1-2 a {
+      text-decoration: none;
+      color: white;
+      padding: 15px 100px;
+      background-color: #9AA3FAff; }
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .section-2 img {
+    width: 25%;
+    height: 25%; }
+  .section-2 h2 {
+    margin: 5px;
+    font-size: 30px;
+    color: #9AA3FAff;
+    padding: 0px 20px;
+    text-align: center; }
+  .section-2 h3 {
+    text-align: center;
+    color: #172533ff;
+    font-size: 50px; }
+  .section-2 p {
+    margin: 0px 20px;
+    color: #172533ff;
+    padding: 15px;
+    background-color: #E4C9D6ff; }
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px; }
+  .section-3 div {
+    margin: 20px; }
+  .section-3 .redes {
+    margin: 25px;
+    color: #9aa3faff;
+    font-size: 45px; }
+  .section-3 p {
+    font-size: 30px;
+    color: #172533ff; }
+
+footer {
+  background-image: url(../img/ImagenCielo.png);
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  footer a {
+    padding: 20px;
+    text-decoration: none;
+    color: #E4c9d6ff;
+    font-size: 20px; }
+  footer p {
+    color: #E4c9d6ff; }
+    footer p a {
+      font-size: 23px;
+      padding: 5px; }
+  footer div {
+    margin: 15px 0px; }

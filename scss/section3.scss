@@ -1,0 +1,21 @@
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+
+    div {
+        margin: 20px;
+    }
+
+    .redes {
+        margin: 25px;
+        color: #9aa3faff;
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 30px;
+        color: #172533ff;
+    }
+}
