@@ -1,0 +1,48 @@
+.inicio {
+    text-align: center;
+    margin: 50px;
+
+
+    h1 {
+        font-size: 60px;
+        color: #9aa3faff;
+        padding: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.marcas {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img { 
+        margin: 20px;
+    }
+
+    h2 { 
+        font-size: 45px;
+        color: #9aa3faff;
+        padding: 0px 0px 10px 0px;
+    }
+
+    p {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .mosaico {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mosaico-secundario {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

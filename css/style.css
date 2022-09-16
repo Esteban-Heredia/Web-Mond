@@ -83,13 +83,15 @@ nav {
   margin: 40px; }
   .section-3 div {
     margin: 20px; }
-  .section-3 .redes {
-    margin: 25px;
-    color: #9aa3faff;
-    font-size: 45px; }
   .section-3 p {
     font-size: 30px;
     color: #172533ff; }
+
+.redes {
+  margin: 25px;
+  color: #9aa3faff;
+  font-size: 45px;
+  text-align: center; }
 
 footer {
   background-image: url(../img/ImagenCielo.png);
@@ -109,3 +111,35 @@ footer {
       padding: 5px; }
   footer div {
     margin: 15px 0px; }
+
+.inicio {
+  text-align: center;
+  margin: 50px; }
+  .inicio h1 {
+    font-size: 60px;
+    color: #9aa3faff;
+    padding: 20px; }
+  .inicio p {
+    font-size: 20px; }
+
+.marcas {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .marcas img {
+    margin: 20px; }
+  .marcas h2 {
+    font-size: 45px;
+    color: #9aa3faff;
+    padding: 0px 0px 10px 0px; }
+  .marcas p {
+    padding: 0px 0px 0px 0px; }
+  .marcas .mosaico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .marcas .mosaico-secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
