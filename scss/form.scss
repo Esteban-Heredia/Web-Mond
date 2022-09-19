@@ -1,0 +1,50 @@
+.gral-form {
+    display: flex;
+    justify-content: center;
+
+    fieldset {
+        border: none;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    form { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    label {
+        color: #172533;
+        font-size: 25px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+
+    textarea {
+        width: 550px;
+        height: 150px;
+    }
+
+    input {
+        background-color: #E4C9D6ff;
+        border: none;
+        border-radius: 2px;
+        padding: 7px;
+    }
+
+    textarea {
+        background-color: #e4c9d6dd;
+        border: none;
+        padding: 10px;
+    }
+
+    .button-s { 
+        width: 250px !important;
+    }
+}

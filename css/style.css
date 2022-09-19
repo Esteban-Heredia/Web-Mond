@@ -138,8 +138,42 @@ footer {
   .marcas .mosaico {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
   .marcas .mosaico-secundario {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+
+.gral-form {
+  display: flex;
+  justify-content: center; }
+  .gral-form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column; }
+  .gral-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .gral-form label {
+    color: #172533;
+    font-size: 25px; }
+  .gral-form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px; }
+  .gral-form textarea {
+    width: 550px;
+    height: 150px; }
+  .gral-form input {
+    background-color: #E4C9D6ff;
+    border: none;
+    border-radius: 2px;
+    padding: 7px; }
+  .gral-form textarea {
+    background-color: #e4c9d6dd;
+    border: none;
+    padding: 10px; }
+  .gral-form .button-s {
+    width: 250px !important; }
