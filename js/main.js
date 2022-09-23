@@ -1,5 +1,11 @@
-// window.addEventListener("load", () => {
+window.addEventListener("load", () => {
 
-//     document.getElementById("contenido").className = "visible";
+    setTimeout(carga, 2000)
 
-// })
+    function carga (){
+
+        document.getElementById("precarga").className = "noseve";
+
+        document.getElementById("contenido").className = "none";
+    }
+})
