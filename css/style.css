@@ -221,7 +221,11 @@ footer {
     top: 50%;
     width: 100%;
     text-align: center;
-    z-index: 4; }
+    z-index: 4;
+    animation-name: luna;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; }
 
 .seve {
   visibility: visible; }
@@ -232,13 +236,13 @@ footer {
 
 @keyframes estrella {
   0% {
-    opacity: 1; }
+    opacity: 0.2; }
   100% {
     opacity: 0; } }
 
 @keyframes estrella2 {
   100% {
-    opacity: 1; }
+    opacity: 0.2; }
   0% {
     opacity: 0; } }
 
@@ -246,6 +250,12 @@ footer {
   100% {
     opacity: 1; }
   50% {
-    opacity: 0.7; }
+    opacity: 0.4; }
   0% {
     opacity: 1; } }
+
+@keyframes tipo {
+  100% {
+    opacity: 1; }
+  0% {
+    opacity: 0.5; } }

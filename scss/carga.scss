@@ -53,6 +53,10 @@
         width: 100%;
         text-align: center;
         z-index: 4;
+        animation-name: luna;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
 }
 

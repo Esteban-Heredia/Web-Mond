@@ -1,15 +1,20 @@
 @keyframes estrella {
-    0% {opacity: 1;}
+    0% {opacity: 0.2;}
     100% {opacity: 0;}
 }
 
 @keyframes estrella2 {
-    100% {opacity: 1;}
+    100% {opacity: 0.2;}
     0% {opacity: 0;}
 }
 
 @keyframes luna {
     100% {opacity: 1;}
-    50% {opacity: 0.7;}
+    50% {opacity: 0.4;}
     0% {opacity: 1;}
+}
+
+@keyframes tipo {
+    100% {opacity: 1;}
+    0% {opacity: 0.5;}
 }

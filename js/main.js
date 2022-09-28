@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
 
-    setTimeout(carga, 2600)
+    setTimeout(carga, 2800)
 
     function carga (){
 
