@@ -1,0 +1,157 @@
+@media (max-width:600px) {
+
+    /* pre-carga */
+    
+    .carga {
+
+        p {
+            font-size: 55px;
+            top: 41%;
+            width: 70%;
+        }
+
+        .luna-lunera {
+            width: 25%;
+            top: 42.5%;
+            right: 13%;
+        }
+    }
+
+
+    
+    /* nav */
+    
+    nav {
+
+        .navbar {
+            --bs-navbar-toggler-border-color: #9aa3fa !important;
+        }
+
+        ul{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    .logo-base {
+        padding: 0px 20px;
+        width: 150px;
+    }
+
+
+    /*home*/
+
+    .section-1 {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box-1-1 {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .box-1-2 {
+            text-align: center;
+            align-items: center;
+
+            a {
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .section-2 {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 80%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+    }
+
+    .section-3 {
+
+        p {
+            text-align: center;
+        }
+        
+        div { 
+            text-align: center;
+
+            img {
+                margin: 10px 0px;
+            }
+        }
+    }
+
+    /*end home*/
+
+    /*branding*/
+
+    .inicio {
+        margin: 0px;
+        p {
+            margin: 10px;
+            margin: -15px 10px 40px;
+        }
+
+        a{
+            margin: 20px;
+            text-decoration: none;
+            color: white;
+            padding: 15px 100px;
+            background-color: #9AA3FAff;
+        }
+    }
+
+    .marcas {
+        margin: 40px 10px;
+
+        h2{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        img {
+            margin: 5px;
+        }
+        
+        .mosaico {
+            flex-direction: column;
+
+           .img-prin {
+                width: 90%;
+                height: auto;
+            }
+        }
+
+        .mosaico-secundario {
+            flex-direction: row;
+        }
+    }
+
+
+    /*end branding*/
+
+    footer {
+        margin: 0px;
+
+        .foot-sec {
+            display: flex;
+            flex-direction: row;
+        }
+
+        p {
+            text-align: center;
+        }        
+    }
+}
+

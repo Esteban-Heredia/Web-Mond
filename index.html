@@ -43,77 +43,85 @@
 
 
         <header>
-            <nav class="navbar navbar-expand-lg p-3">
-                <div>
-                    <a href="index.html"><img class="logo-base" src="img/Mond-Blanco.png" alt="MOND logo"></a>
+
+          <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container-fluid">
+              <a href="index.html"><img class="logo-base" src="img/Mond-Blanco.png" alt="MOND logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <a href="index.html"><img class="logo-base" src="img/Mond.png" alt="MOND logo"></a>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="m-0">
-                               <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle text-white" href="./sections/branding.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Branding
-                                  </a>
-                                  <ul class="dropdown-menu">
-                                     <li><a class="dropdown-item" href="./sections/branding.html">Ancestral</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">Origen</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">Retroñoño</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">Monita</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">Tiendida rebranding</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">Angela</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">We TeamUP</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">Alimentaria</a></li>
-                                    <li><a class="dropdown-item" href="./sections/branding.html">Baus</a></li>
-                                  </ul>
-          
-                                </li>
-                                <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle text-white" href="./sections/diseno.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Diseño
-                                  </a>
-                                  <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./sections/diseno.html">Noa Visión</a></li>
-                                    <li><a class="dropdown-item" href="./sections/diseno.html">MOMMA</a></li>
-                                    <li><a class="dropdown-item" href="./sections/diseno.html">TOCKA</a></li>
-                                    <li><a class="dropdown-item" href="./sections/diseno.html">DURBAN TAFI</a></li>
-                                    <li><a class="dropdown-item" href="./sections/diseno.html">VR COSMETICS</a></li>
-                                    <li><a class="dropdown-item" href="./sections/diseno.html">Delicias</a></li>
-                                  </ul>
-                                </li>
-          
-                                <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle text-white" href="./sections/producciones.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Producciones
-                                  </a>
-                                  <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">La Carlota</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Luvré</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Ancestral</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Origen</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Liquor</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Blackbox</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">AXION</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Delicias</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Mares Spa</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">Alimentaria</a></li>
-                                    <li><a class="dropdown-item" href="./sections/producciones.html">BOUQUET</a></li>
-                                  </ul>
-                                </li>
-          
-                              <li>
-                                  <a href="sections/contacto.html">Contacto</a>
-                              </li>
-                          </ul>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle text-dark" href="./sections/branding.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Branding
+                       </a>
+                       <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./sections/branding.html">Ancestral</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">Origen</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">Retroñoño</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">Monita</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">Tiendida rebranding</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">Angela</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">We TeamUP</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">Alimentaria</a></li>
+                         <li><a class="dropdown-item" href="./sections/branding.html">Baus</a></li>
+                       </ul>
+
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle text-dark" href="./sections/diseno.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Diseño
+                       </a>
+                       <ul class="dropdown-menu">
+                         <li><a class="dropdown-item" href="./sections/diseno.html">Noa Visión</a></li>
+                         <li><a class="dropdown-item" href="./sections/diseno.html">MOMMA</a></li>
+                         <li><a class="dropdown-item" href="./sections/diseno.html">TOCKA</a></li>
+                         <li><a class="dropdown-item" href="./sections/diseno.html">DURBAN TAFI</a></li>
+                         <li><a class="dropdown-item" href="./sections/diseno.html">VR COSMETICS</a></li>
+                         <li><a class="dropdown-item" href="./sections/diseno.html">Delicias</a></li>
+                       </ul>
+                     </li>
+
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle text-dark" href="./sections/producciones.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Producciones
+                       </a>
+                       <ul class="dropdown-menu">
+                         <li><a class="dropdown-item" href="./sections/producciones.html">La Carlota</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Luvré</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Ancestral</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Origen</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Liquor</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Blackbox</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">AXION</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Delicias</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Mares Spa</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">Alimentaria</a></li>
+                         <li><a class="dropdown-item" href="./sections/producciones.html">BOUQUET</a></li>
+                       </ul>
+                     </li>
+
+                   <li>
+                       <a class="text-dark" href="sections/contacto.html">Contacto</a>
+                   </li>
+               </ul>
+                    </li>
+                  </ul>
                 </div>
-            </nav>
+              </div>
+            </div>
+          </nav>
         </header>
 
         <main>
 
-            <div id="carouselExampleCaptions" class="carousel slide m-5" data-bs-ride="false">
+            <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -163,7 +171,7 @@
                 </div>
             </section>
             <section class="section-2">
-                    <img class="m-5" src="./img/Mond-Nov-32.png" alt="las 3 en produ">
+                    <img src="./img/Mond-Nov-32.png" alt="las 3 en produ">
                     <div class="m-5">
                         <h3 class="p-3">¿Como podemos ayudarte?</h3>
                         <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -221,7 +229,7 @@
         </main>
 
         <footer>
-            <div>
+            <div class="foot-sec">
                 <a href="">FAQ</a>
                 <a href="">Nosotras</a>
                 <a href="sections/contacto.html">Contacto</a>

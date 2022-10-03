@@ -12,6 +12,10 @@
     }
     
     .estrella1 {
+        width: 20px;
+        top: 37%;
+        right: 15%;
+        height: auto;
         position: absolute;
         opacity: 0.2;
         z-index: 2;
@@ -22,6 +26,11 @@
     }
     
     .estrella2 {
+        width: 50px;
+        top: 38%;
+        right: 13%;
+        height: auto;
+        transform: rotate(348deg);
         position: absolute;
         opacity: 0.6;
         z-index: 3;
