@@ -2,6 +2,66 @@
 * {
   margin: 0px; }
 
+@font-face {
+  font-family: "gbr";
+  src: url(../fonts/GothamBlackRegular.ttf); }
+
+@font-face {
+  font-family: "gbold";
+  src: url(../fonts/GothamBold.otf); }
+
+@font-face {
+  font-family: "gbolditalic";
+  src: url(../fonts/GothamBoldItalic.ttf); }
+
+@font-face {
+  font-family: "gbook";
+  src: url(../fonts/GothamBook.ttf); }
+
+@font-face {
+  font-family: "gbookitalic";
+  src: url(../fonts/Gotham-BookItalic.otf); }
+
+@font-face {
+  font-family: "glight";
+  src: url(../fonts/Gotham-Light.otf); }
+
+@font-face {
+  font-family: "glightitalic";
+  src: url(../fonts/GothamLightItalic.ttf); }
+
+@font-face {
+  font-family: "gmedium";
+  src: url(../fonts/GothamMedium.ttf); }
+
+@font-face {
+  font-family: "gmediumitalic";
+  src: url(../fonts/GothamMediumItalic.ttf); }
+
+@font-face {
+  font-family: "gthin";
+  src: url(../fonts/Gotham-Thin.otf); }
+
+@font-face {
+  font-family: "gthinitalic";
+  src: url(../fonts/Gotham-ThinItalic.otf); }
+
+@font-face {
+  font-family: "gultraitalic";
+  src: url(../fonts/Gotham-UltraItalic.otf); }
+
+@font-face {
+  font-family: "gxlight";
+  src: url(../fonts/Gotham-XLight.otf); }
+
+@font-face {
+  font-family: "glightitalic";
+  src: url(../fonts/Gotham-XLightItalic.otf); }
+
+@font-face {
+  font-family: "tenor";
+  src: url(../fonts/TenorSans-Regular.ttf); }
+
 .logo-base {
   padding: 10px 0px 0px 20px;
   width: 25%; }
@@ -32,7 +92,8 @@ nav {
     display: flex;
     margin: 0px;
     font-size: 60px;
-    color: #9AA3FAff; }
+    color: #9AA3FAff;
+    font-family: "gbr"; }
   .section-1 p {
     font-size: 20px; }
   .section-1 .box-1-1 {
@@ -234,7 +295,10 @@ footer {
     animation-name: luna;
     animation-duration: 1s;
     animation-direction: alternate;
-    animation-iteration-count: infinite; }
+    animation-iteration-count: infinite;
+    font-family: gthin; }
+  .carga #marca {
+    font-family: gbr; }
 
 .seve {
   visibility: visible; }
