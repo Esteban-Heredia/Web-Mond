@@ -6,7 +6,7 @@
 
         p {
             font-size: 55px;
-            top: 41%;
+            top: 43%;
             width: 70%;
         }
 
@@ -91,10 +91,15 @@
 
     /*end home*/
 
-    /*branding*/
+    /*branding & diseño*/
 
     .inicio {
         margin: 0px;
+
+        h1 {
+            margin-top: 60px;
+        }
+
         p {
             margin: 10px;
             margin: -15px 10px 40px;
@@ -134,12 +139,41 @@
         }
 
         .mosaico-secundario {
-            flex-direction: row;
+            flex-direction: column;
+
+            .mosa-sec {
+                display: flex;
+                align-items: center;
+                margin: 10px;
+            }
         }
     }
 
 
-    /*end branding*/
+    /*end branding & diseño*/
+
+    /*produccion*/
+
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*fin produccion*/
+
+    /*contacto*/
+    
+    .gral-form textarea {
+        width: 330px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+
+
+    /*fin contacto*/
+
+
 
     footer {
         margin: 0px;

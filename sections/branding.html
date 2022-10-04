@@ -17,73 +17,81 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div>
-                <a href="../index.html"><img class="logo-base" src="../img/Mond-Blanco.png" alt="MOND logo"></a>
+
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container-fluid">
+            <a href="../index.html"><img class="logo-base" src="../img/Mond-Blanco.png" alt="MOND logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <a href="index.html"><img class="logo-base" src="../img/Mond.png" alt="MOND logo"></a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle text-dark" href="./sections/branding.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Branding
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./branding.html">Ancestral</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">Origen</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">Retroñoño</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">Monita</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">Tiendida rebranding</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">Angela</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">We TeamUP</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">Alimentaria</a></li>
+                       <li><a class="dropdown-item" href="./branding.html">Baus</a></li>
+                     </ul>
+
+                   </li>
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle text-dark" href="./diseno.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Diseño
+                     </a>
+                     <ul class="dropdown-menu">
+                       <li><a class="dropdown-item" href="./diseno.html">Noa Visión</a></li>
+                       <li><a class="dropdown-item" href="./diseno.html">MOMMA</a></li>
+                       <li><a class="dropdown-item" href="./diseno.html">TOCKA</a></li>
+                       <li><a class="dropdown-item" href="./diseno.html">DURBAN TAFI</a></li>
+                       <li><a class="dropdown-item" href="./diseno.html">VR COSMETICS</a></li>
+                       <li><a class="dropdown-item" href="./diseno.html">Delicias</a></li>
+                     </ul>
+                   </li>
+
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle text-dark" href="./producciones.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Producciones
+                     </a>
+                     <ul class="dropdown-menu">
+                       <li><a class="dropdown-item" href="./producciones.html">La Carlota</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Luvré</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Ancestral</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Origen</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Liquor</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Blackbox</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">AXION</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Delicias</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Mares Spa</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">Alimentaria</a></li>
+                       <li><a class="dropdown-item" href="./producciones.html">BOUQUET</a></li>
+                     </ul>
+                   </li>
+
+                 <li>
+                     <a class="text-dark" href="contacto.html">Contacto</a>
+                 </li>
+             </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul>
-                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle text-white" href="./sections/branding.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Branding
-                              </a>
-                              <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="branding.html">Ancestral</a></li>
-                                <li><a class="dropdown-item" href="branding.html">Origen</a></li>
-                                <li><a class="dropdown-item" href="branding.html">Retroñoño</a></li>
-                                <li><a class="dropdown-item" href="branding.html">Monita</a></li>
-                                <li><a class="dropdown-item" href="branding.html">Tiendida rebranding</a></li>
-                                <li><a class="dropdown-item" href="branding.html">Angela</a></li>
-                                <li><a class="dropdown-item" href="branding.html">We TeamUP</a></li>
-                                <li><a class="dropdown-item" href="branding.html">Alimentaria</a></li>
-                                <li><a class="dropdown-item" href="branding.html">Baus</a></li>
-                              </ul>
-      
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle text-white" href="./sections/diseno.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Diseño
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="diseno.html">Noa Visión</a></li>
-                                <li><a class="dropdown-item" href="diseno.html">MOMMA</a></li>
-                                <li><a class="dropdown-item" href="diseno.html">TOCKA</a></li>
-                                <li><a class="dropdown-item" href="diseno.html">DURBAN TAFI</a></li>
-                                <li><a class="dropdown-item" href="diseno.html">VR COSMETICS</a></li>
-                                <li><a class="dropdown-item" href="diseno.html">Delicias</a></li>
-                              </ul>
-                            </li>
-      
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle text-white" href="./sections/producciones.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Producciones
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="producciones.html">La Carlota</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Luvré</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Ancestral</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Origen</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Liquor</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Blackbox</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">AXION</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Delicias</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Mares Spa</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">Alimentaria</a></li>
-                                <li><a class="dropdown-item" href="producciones.html">BOUQUET</a></li>
-                              </ul>
-                            </li>
-      
-                          <li>
-                              <a href="contacto.html">Contacto</a>
-                          </li>
-                      </ul>
-            </div>
+          </div>
         </nav>
-    </header>
+      </header>
 
     <main>
         <div class="inicio">
@@ -100,11 +108,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -120,11 +128,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -139,11 +147,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -158,11 +166,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -177,11 +185,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -196,11 +204,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -215,11 +223,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -234,11 +242,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -253,11 +261,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -272,11 +280,11 @@
                 <img class="img-prin" src="../img/600x600.png" alt="principal">
 
                 <div class="mosaico-secundario">
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
-                    <div>
+                    <div class="mosa-sec">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                         <img class="img-sec" src="../img/150.png" alt="secundaria">
                     </div>
@@ -290,10 +298,10 @@
     </main>
 
     <footer>
-        <div>
+        <div class="foot-sec">
             <a href="">FAQ</a>
             <a href="">Nosotras</a>
-            <a href="contacto.html">Contacto</a>
+            <a href="sections/contacto.html">Contacto</a>
         </div>
 
         <p>Web hecha por <a href="" target="_blank">EH</a> Todos los derechos </p>
