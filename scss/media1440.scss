@@ -1,0 +1,118 @@
+@media (min-width:1440px){
+
+    /* pre-carga */
+        
+    .carga {
+    
+        p {
+            font-size: 45px;
+            top: 48.5%;
+            width: 90%;
+        }
+    
+        .luna-lunera {
+            width: 5%;
+            top: 46.5%;
+            right: 43%;
+        }
+    
+        .estrella1 {
+            top: 44%;
+            right: 42.5%;
+        }
+    
+        .estrella2 {
+            top: 45%;
+            right: 42.5%;
+        }
+    
+    
+    }
+    
+    /*end carga*/
+
+    /*header*/
+
+    .logo-base {
+        padding-left: 30px;
+        width: 25%;
+    }
+
+    /*end header*/
+
+    /*home*/
+
+    .carousel {
+        margin-top: 150px;
+    }
+
+    .section-2 {
+        align-items: center;
+
+        h3 {
+            font-size: 65px;
+        }
+
+       .cpa {
+        width: 600px;
+       }
+    }
+
+    /*end home*/
+
+    /*branding & diseño*/
+
+    .inicio {
+        margin: 110px;
+    }
+
+    .marcas {
+        text-align: center;
+        margin-bottom: 80px;
+
+        .mosaico {
+            margin: 40px;
+
+            .img-prin {
+                width: 55%;
+            }
+
+            .img-sec{
+                width: 100%;
+            }
+
+            .mosa-sec { 
+                margin: 10px;
+            }
+        }
+    }
+
+    /*end brandig & diseño*/
+
+    /*producciones*/
+
+    .p-mo-i {
+        width: 800px;
+        flex-direction: column;
+
+        .mo-iframe {
+            flex-direction: row;
+
+            .mosa-sec-pro {
+                display: flex;
+            }
+        }
+
+        iframe {
+            width: 80%;
+            height: 360px;
+        }
+
+        .p-img {
+            width: 180px;
+        }
+    }
+
+    /*end producciones*/
+    
+    }

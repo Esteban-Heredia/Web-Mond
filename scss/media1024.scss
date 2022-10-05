@@ -1,0 +1,122 @@
+@media (min-width:1024px){
+
+    /* pre-carga */
+        
+    .carga {
+    
+        p {
+            font-size: 45px;
+            top: 43.5%;
+            width: 90%;
+        }
+    
+        .luna-lunera {
+            width: 10%;
+            top: 41.5%;
+            right: 36%;
+        }
+    
+        .estrella1 {
+            right: 36.5%;
+        }
+    
+        .estrella2 {
+            right: 36%;
+        }
+    
+    
+    }
+    
+    /*end carga*/
+
+    /*header*/
+
+    .logo-base {
+        padding-left: 20px;
+        width: 45%;
+    }
+
+    /*end header*/
+
+    /*home*/
+
+    .carousel {
+        margin-top: 110px;
+    }
+
+    .section-1 {
+        margin-top: 60px;
+        margin-bottom: 80px;
+
+        h1 {
+            font-size: 120px;
+        }
+
+        .box-1-2 {
+            justify-content: center;
+            align-items: center;
+            padding: 0px 100px;
+        }
+    }
+
+    .section-2 {
+        align-items: center;
+
+       .cpa {
+        width: 360px;
+       }
+    }
+
+    /*end home*/
+
+    /*branding & diseño*/
+
+    .marcas {
+        text-align: center;
+
+        .mosaico {
+            margin: 40px;
+
+            .img-prin {
+                width: 48.5%;
+            }
+
+            .img-sec{
+                width: 94%;
+            }
+
+            .mosaico-secundario { 
+                flex-direction: row;
+            }
+        }
+    }
+
+    /*end brandig & diseño*/
+
+    /*producciones*/
+
+    .p-mo-i {
+        width: 800px;
+        flex-direction: column;
+
+        .mo-iframe {
+            flex-direction: row;
+
+            .mosa-sec-pro {
+                display: flex;
+            }
+        }
+
+        iframe {
+            width: 80%;
+            height: 360px;
+        }
+
+        .p-img {
+            width: 180px;
+        }
+    }
+
+    /*end producciones*/
+    
+    }
