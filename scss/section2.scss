@@ -20,6 +20,7 @@
         text-align: center;
         color:#172533ff;
         font-size: 40px;
+        font-family: gbold;
     }
 
     p {
@@ -27,5 +28,10 @@
         color: #172533ff;
         padding: 15px;
         background-color: #E4C9D6ff;
+        font-family: gbook;
+    }
+
+    .accordion-body {
+        font-family: gbook;
     }
 }

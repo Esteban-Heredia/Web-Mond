@@ -95,6 +95,7 @@ nav {
     color: #9AA3FAff;
     font-family: "gbr"; }
   .section-1 p {
+    font-family: glight;
     font-size: 20px; }
   .section-1 .box-1-1 {
     display: flex; }
@@ -112,7 +113,8 @@ nav {
       text-decoration: none;
       color: white;
       padding: 15px 100px;
-      background-color: #9AA3FAff; }
+      background-color: #9AA3FAff;
+      font-family: glight; }
 
 .section-2 {
   display: flex;
@@ -130,12 +132,16 @@ nav {
   .section-2 h3 {
     text-align: center;
     color: #172533ff;
-    font-size: 40px; }
+    font-size: 40px;
+    font-family: gbold; }
   .section-2 p {
     margin: 0px 20px;
     color: #172533ff;
     padding: 15px;
-    background-color: #E4C9D6ff; }
+    background-color: #E4C9D6ff;
+    font-family: gbook; }
+  .section-2 .accordion-body {
+    font-family: gbook; }
 
 .section-3 {
   display: flex;
@@ -146,7 +152,8 @@ nav {
     margin: 20px; }
   .section-3 p {
     font-size: 30px;
-    color: #172533ff; }
+    color: #172533ff;
+    font-family: gbold; }
 
 .redes {
   margin: 25px;
@@ -177,11 +184,13 @@ footer {
   text-align: center;
   margin: 50px; }
   .inicio h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #9aa3faff;
-    padding: 20px; }
+    padding: 20px;
+    font-family: "gbr"; }
   .inicio p {
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: glight; }
 
 .marcas {
   margin: 10px;
@@ -193,9 +202,11 @@ footer {
   .marcas h2 {
     font-size: 45px;
     color: #9aa3faff;
-    padding: 0px 0px 10px 0px; }
+    padding: 0px 0px 10px 0px;
+    font-family: "gbr"; }
   .marcas p {
-    padding: 0px 0px 0px 0px; }
+    padding: 0px 0px 0px 0px;
+    font-family: glight; }
   .marcas .mosaico {
     display: flex;
     flex-direction: row;
