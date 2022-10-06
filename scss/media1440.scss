@@ -92,11 +92,11 @@
     /*producciones*/
 
     .p-mo-i {
-        width: 800px;
-        flex-direction: column;
+        width: 1200px;
+        flex-direction: row;
 
         .mo-iframe {
-            flex-direction: row;
+            flex-direction: column;
 
             .mosa-sec-pro {
                 display: flex;
@@ -104,12 +104,12 @@
         }
 
         iframe {
-            width: 80%;
+            width: 70%;
             height: 360px;
         }
 
         .p-img {
-            width: 180px;
+            width: 250px;
         }
     }
 

@@ -35,6 +35,9 @@
         width: 150px;
     }
 
+    .c-link {
+        color: #807e7e;
+    }
 
     /*home*/
 
@@ -170,8 +173,8 @@
     }
 
     iframe{
-        width: 85%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }
 
     .p-img {
@@ -213,3 +216,10 @@
     }
 }
 
+@media (max-width:767px) {
+
+    .c-link {
+        color: #807e7e;
+    }
+
+}
